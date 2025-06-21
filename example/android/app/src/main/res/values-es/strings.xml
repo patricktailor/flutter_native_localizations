@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demostración de localización</string>
+    <string name="hello">Hola</string>
+    <string name="welcome_message">Bienvenido a la demostración</string>
+    <string name="greeting_with_name">¡Hola, %1$s!</string>
+    <plurals name="item_count">
+        <item quantity="one">Se encontró %d elemento</item>
+        <item quantity="other">Se encontraron %d elementos</item>
+        <item quantity="many">Se encontraron %d elementos</item>
+    </plurals>
+</resources>

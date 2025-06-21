@@ -37,6 +37,11 @@ android {
             signingConfig = signingConfigs.getByName("debug")
         }
     }
+
+    androidResources {
+        generateLocaleConfig = true
+        localeFilters += listOf("en", "es")
+    }
 }
 
 flutter {
