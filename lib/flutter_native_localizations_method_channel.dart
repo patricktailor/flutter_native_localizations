@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import 'flutter_native_localizations_platform_interface.dart';
+import 'package:flutter_native_localizations/flutter_native_localizations_platform_interface.dart';
 
 /// An implementation of [FlutterNativeLocalizationsPlatform] that uses method channels.
 class MethodChannelFlutterNativeLocalizations extends FlutterNativeLocalizationsPlatform {

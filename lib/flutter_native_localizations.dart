@@ -5,7 +5,7 @@
 // platforms in the `pubspec.yaml` at
 // https://flutter.dev/to/pubspec-plugin-platforms.
 
-import 'flutter_native_localizations_platform_interface.dart';
+import 'package:flutter_native_localizations/flutter_native_localizations_platform_interface.dart';
 
 class FlutterNativeLocalizations {
   Future<String?> getPlatformVersion() {

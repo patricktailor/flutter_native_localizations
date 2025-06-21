@@ -1,12 +1,12 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_native_localizations/flutter_native_localizations_method_channel.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  MethodChannelFlutterNativeLocalizations platform = MethodChannelFlutterNativeLocalizations();
-  const MethodChannel channel = MethodChannel('flutter_native_localizations');
+  final platform = MethodChannelFlutterNativeLocalizations();
+  const channel = MethodChannel('flutter_native_localizations');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(
